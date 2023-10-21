@@ -8,6 +8,12 @@ body{
     font-family: Roboto;
     font-size: 14px;
 }
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 .nav-list-link{
     color: var(--main-font-color);
 font-style: normal;
@@ -17,146 +23,176 @@ letter-spacing: 0.28px;
 }
 .nav-list-link:hover, .contacts-list-link:hover{
     color: var(--accent-color);
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 .logo{
     color: var(--accent-color);
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
-.header-logo,.footer-logo{
+.header-logo{
     color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 .contacts-list-link{
     color: var(--secondary-font-color);
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 .section-hero-title{
     color: #FFF; 
-text-align: center;
-font-size: 44px;
-font-style: normal;
-font-weight: 900;
-line-height: 1.4; /* 136.364% */
-letter-spacing: 2.64px;
-text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.4; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
 .section-hero-btn{
     color: #FFF;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.96px;
-border-radius: 4px;
-background: var(--accent-color);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .features-list-title{
     color: var(--main-font-color);
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 .features-list-text{
     color: var(--secondary-font-color);
-font-style: normal;
-font-weight: 400;
-line-height: 2; /* 171.429% */
-letter-spacing: 0.42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2; /* 171.429% */
+    letter-spacing: 0.42px;
 }
 .section-work-title{
     color: var(--main-font-color);
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 .section-team-title{
     color: var(--main-font-color);
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 .team-list-title{
     color: var(--main-font-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 .team-list-text{
     color: var(--secondary-font-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 .footer-contacts-list-link{
     color: rgba(255, 255, 255, 0.60);
-font-style: normal;
-font-weight: 400;
-line-height: 2; /* 171.429% */
-letter-spacing: 0.42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2; /* 171.429% */
+    letter-spacing: 0.42px;
 }
 .filters-list-item{
     color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
 }
 .project-logo{
     color: var(--main-font-color);
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 2; /* 200% */
-letter-spacing: 1.08px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2; /* 200% */
+    letter-spacing: 1.08px;
 }
 .project-text{
     color: var(--secondary-font-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
 }
 .footer{
     background-color: #2F303A;
 }
+/* видалити фут */
 .address-list-link{
     color: #FFF;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.footer-logo{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.section-hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--background-color);
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-work{
+    padding-bottom: 94px;
+}
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
