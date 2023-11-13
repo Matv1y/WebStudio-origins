@@ -159,13 +159,29 @@ letter-spacing: 0.28px;
     line-height: 2; /* 171.429% */
     letter-spacing: 0.42px;
 }
+.section-filters-list{
+    display: flex;
+    margin-top: 94px;
+    justify-content: center;
+    column-gap: 8px;
+}
 .filters-list-item{
     color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
     letter-spacing: 0.48px;
+}
+.section-projects-list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-bottom: 94px;
+}
+.project-img{
+    padding-bottom: 20px;
 }
 .project-logo{
     color: var(--main-font-color);
@@ -174,6 +190,7 @@ letter-spacing: 0.28px;
     font-weight: 700;
     line-height: 2; /* 200% */
     letter-spacing: 1.08px;
+    padding-bottom: 4px;
 }
 .project-text{
     color: var(--secondary-font-color);
@@ -186,8 +203,6 @@ letter-spacing: 0.28px;
 .footer{
     background-color: #2F303A;
 }
-
-/* видалити футер бек-кольор */
 
 .address-list-link{
     color: #FFF;
