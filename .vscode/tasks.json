@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\VS Code\\Project\\Homeworks\\homework_5 (webstudio)",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
