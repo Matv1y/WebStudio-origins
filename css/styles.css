@@ -58,7 +58,7 @@ body {
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(/img_1/background.png);
+  background-image: url("/img_1/background.png");
 }
 .section-hero-title {
   color: #ffffff;
@@ -282,7 +282,7 @@ body {
 }
 .features-list-item:nth-child(1)::before{
   content: '';
-  background-image: url("img_1/antena.png");
+  background-image: url("/img_1/antena.png");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -292,7 +292,7 @@ body {
 }
 .features-list-item:nth-child(2)::before{
   content: '';
-  background-image: url("img_1/clock.png");
+  background-image: url("/img_1/clock.png");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -302,7 +302,7 @@ body {
 }
 .features-list-item:nth-child(3)::before{
   content: '';
-  background-image: url("img_1/tablet.png");
+  background-image: url("/img_1/tablet.png");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -312,7 +312,7 @@ body {
 }
 .features-list-item:nth-child(4)::before{
   content: '';
-  background-image: url("img_1/astronavt.png");
+  background-image: url("/img_1/astronavt.png");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
