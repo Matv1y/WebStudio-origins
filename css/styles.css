@@ -282,7 +282,7 @@ body {
 }
 .features-list-item:nth-child(1)::before{
   content: '';
-  background-image: url("/img_1/antena.png");
+  background-image: url("./img_1/antena.png");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
